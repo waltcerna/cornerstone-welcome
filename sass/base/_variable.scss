@@ -1,0 +1,19 @@
+$brand-red: #D9232E;
+$brand-blue: #4789A3;
+$brand-orange: #FF9100;
+$brand-green: #68AA00;
+$brand-gray-light: #f2f2f2;
+$brand-gray-dark: darken($brand-gray-light, 10%);
+$brand-text: #333333;
+$brand-font: 'Lucida Grande', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+$main-background-color: white;
+$focus: slategray;
+
+
+$brand-color-primary: $brand-red;
+$brand-color-secondary: $brand-blue;
+$brand-color-accent1: $brand-orange;
+$brand-color-accent2: $brand-green;
+$background-color: $main-background-color;
+$brand-color-neutral: $brand-gray-light;
+$brand-color-neutral2: $brand-gray-dark;

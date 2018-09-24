@@ -1,0 +1,109 @@
+#search {
+    .cso-top-srch-box {
+        background-color: $brand-gray-light;
+        box-shadow: none;
+        border: none;
+        height: 30px;
+        margin: 0 10px 0 0;
+        padding: 9px;
+        width: 35ch;
+        position: relative;
+        display: block;
+        float: left;
+        z-index: 999;
+        transition: all .3s ease-in-out;
+    }
+    .cso-top-srch-box:focus {
+        outline: 2px solid $focus;
+    }
+    input {
+        font-family: $brand-font;
+        font-size: 14px;
+        line-height: 30px;
+        height: 30px;
+        border: 0;
+        background-color: transparent;
+        margin: 0;
+        padding: 0 0 0 5px;
+        width: 39ch;
+        float: right;
+        color: rgba(51, 51, 51, 0.7);
+        outline: none !important;
+        &::-webkit-input-placeholder {
+            color: $focus;
+        }
+        &:-moz-placeholder {
+            /* Firefox 18- */
+            color: $focus;
+            opacity: 1;
+        }
+        &::-moz-placeholder {
+            /* Firefox 19+ */
+            color: $focus;
+            opacity: 1;
+        }
+        &:-ms-input-placeholder {
+            color: $focus;
+        }
+    }
+    .search-lnk {
+        display: block;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1.2em;
+        background-image: url('../../../images/sprite1.png');
+        background-repeat: no-repeat;
+        background-position: 7px -1037px;
+        height: 20px;
+        width: 20px;
+        &:hover, &:focus {
+            color: $focus;
+            text-decoration: none;
+            background-image: url('../../../images/sprite1.png');
+            background-repeat: no-repeat;
+            background-position: -20px -1037px;
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
+
+span.cso-top-srch-box:focus-within {
+    outline: 2px solid $focus;
+}
+
+#search.expanded {
+    .cso-top-srch-box {
+        transition: all 0.5s ease;
+        background-position: 243px -1031px;
+        width: 35ch;
+    }
+    input {
+        width: 220px;
+    }
+}
+
+/* RIGHT TO LEFT
+ *********************************/
+
+#dir-rtl {
+    #search {
+        .search-lnk {
+            right: auto;
+            left: 10px;
+        }
+        .cso-top-srch-box {
+            padding: 0 0 0 35px;
+            margin: 0 0 0 4px;
+            background-position: 11px -1030px;
+            float: right;
+        }
+        input {
+            padding: 0 15px 0 0;
+            float: left;
+        }
+    }
+}

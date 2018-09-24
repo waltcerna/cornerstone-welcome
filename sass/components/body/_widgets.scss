@@ -1,0 +1,258 @@
+.widgetDropped {
+    margin: 10px 10px;
+}
+
+#csod-dialog {
+    padding: 0 10px 10px;
+}
+
+.body {
+    display: block;
+    color: $brand-text;
+    font-size: 1em;
+    font-family: $brand-font;
+    padding: 0 10px 20px;
+}
+
+.PanelIcon .mediaWidgets {
+    max-width: none;
+}
+
+.mediaWidgets {
+    max-width: 100%;
+}
+
+.cs-panel-flat {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.cs-panel-flat .Panel_title {
+    background-color: darken($brand-color-secondary, 30%);
+    border-radius: 0;
+}
+
+.Panel_titleLeft,
+.Panel_titleRight {
+    display: none;
+    background: darken($brand-color-secondary, 30%);
+    width: 0;
+}
+
+.Panel_titleMiddle {
+    padding: 15px;
+    background: transparent;
+    background-color: darken($brand-color-secondary, 30%);
+}
+
+.Panel_titleMiddle h2 {
+    font-size: 1.2em !important;
+    line-height: 1.625 !important;
+    color: $main-background-color;
+}
+
+.cs-panel-flat .Panel_content {
+    background-color: $brand-gray-light;
+    border: 1px solid $brand-gray-dark;
+}
+
+.Panel_contentLeft,
+.Panel_contentRight {
+    display: none;
+}
+
+.Panel_contentMiddle {
+    padding: 1.3em;
+    font-size: 1em;
+}
+
+.Panel_contentMiddle * {
+    font-size: 1em !important;
+    line-height: 1.625 !important
+}
+
+.Panel_footer {
+    display: none;
+}
+
+.CsList tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    -webkit-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s
+}
+
+.CsList tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.CsList tbody tr:hover td {
+    background-color: #f2f2f2;
+}
+
+table .CsList th,
+table .CsList_th {
+    height: auto;
+    padding: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tablerolloverNewUI {
+    background-color: transparent
+}
+
+#container5 {
+    padding-bottom: 60px;
+    border-bottom: 2px solid #CCCCCC
+}
+
+.widgetDropped[widgetid="9"] .cs-panel-flat .Panel_title {
+    background-color: #4789A3
+}
+
+.widgetDropped[widgetid="9"] .CsList tbody tr td {
+    padding: 5px 0;
+    border-bottom: 0
+}
+
+.widgetDropped[widgetid="9"] .CsList tbody tr:hover td {
+    background-color: transparent
+}
+
+.widgetDropped[widgetid="15"] .cs-panel-flat .Panel_title {
+    background-color: #4789A3
+}
+
+.widgetDropped[id="3"] .panel-red .Panel_contentMiddle {
+    background-color: #D9232E
+}
+
+.widgetDropped[id="3"] .panel-orange .Panel_contentMiddle {
+    background-color: #FF9100
+}
+
+.widgetDropped[id="3"] .panel-blue .Panel_contentMiddle {
+    background-color: #11566F
+}
+
+.widgetDropped[id="3"] .panel-gray .Panel_contentMiddle {
+    background-color: #999999
+}
+
+.widgetDropped[id="8"] {
+    margin: 60px 10px
+}
+
+.widgetDropped[id="8"] .section-title {
+    margin-bottom: 10px;
+    color: #999999
+}
+
+.grid {
+    margin: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.grid:last-child {
+    margin-bottom: 0
+}
+
+.grid:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.grid .block {
+    display: inline-block;
+    height: 140px;
+    padding: 30px
+}
+
+.card {
+    height: 100%;
+    position: relative;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    -webkit-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s
+}
+
+.card .card-content {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 20px;
+    text-align: center;
+}
+
+.card .card-title {
+    -webkit-transition: all .2s ease-out 0s;
+    transition: all .2s ease-out 0s;
+}
+
+.card .card-title a {
+    color: $brand-text;
+}
+
+.card .card-title a:hover,
+.card .card-title a:active {
+    color: $brand-color-primary;
+}
+
+.card:hover,
+.card:active {
+    border-color: $brand-color-primary;
+}
+
+.card:hover .card-title a,
+.card:active .card-title a {
+    color: $brand-color-primary;
+}
+
+
+
+/*this should be on the widget instead of on the page itself*/
+
+table .CsList th,
+table .CsList_th {
+    border-top: none;
+    border-bottom: 1px solid #777777;
+    background: none;
+    color: black;
+}
+
+a.quickLink {
+    display: block;
+    background-attachment: left top;
+    background-repeat: no-repeat;
+    padding-left: 48px;
+    margin-right: 8px;
+    height: 33px;
+    line-height: 34px;
+    border-bottom: 1px solid #cccccc;
+    text-align: left;
+    font-family: "Century Gothic";
+    font-size: 11pt;
+    font-weight: normal;
+    color: #234567;
+    background-position: 8px center;
+}
+
+*#dir-rtl .containedInVSplit {
+    position: relative;
+    zoom: 1;
+}
+
+
+/* PREVENT CUSTOM HTML FROM BLOCKING THE NAVIGATION DROPDOWNS */
+
+.cs-html-widget-container #banner-bg {
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,188 @@
+td {
+    border: none;
+}
+
+.c-glbl-nav {
+    padding: 0;
+}
+
+.navTabs {
+    background: $background-color;
+}
+
+#main-menu {
+    border-radius: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+td,
+th,
+a,
+.body {
+    font-family: $brand-font;
+    line-height: 1.5;
+    color: $brand-text;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+p a,
+li a,
+td a,
+th a,
+a a,
+.body a,
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link,
+p a:link,
+li a:link,
+td a:link,
+th a:link,
+a a:link,
+.body a:link {
+    color: $brand-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1.line-break,
+h2.line-break,
+h3.line-break,
+h4.line-break,
+h5.line-break,
+h6.line-break,
+p.line-break {
+    margin-top: -20px;
+}
+
+h1,
+.h1 {
+    font-size: 48px;
+}
+
+h1 .brdcrmhdr {
+    margin: 0;
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+h2,
+.h2 {
+    font-size: 42px;
+}
+
+h3,
+.h3 {
+    font-size: 36px;
+}
+
+h4,
+.h4 {
+    font-size: 30px;
+}
+
+h5,
+.h5 {
+    font-size: 24px;
+}
+
+h6,
+.h6 {
+    font-size: 20px;
+}
+
+p,
+li {
+    font-size: 16px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+ul:last-child {
+    margin-bottom: 0;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.no-bullets li {
+    padding: 5px 0;
+}
+
+li {
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+li:last-child {
+    padding-bottom: 0;
+}
+
+a,
+a:link {
+    color: $brand-color-primary;
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+
+a:hover,
+a:link:hover,
+a:active,
+a:link:active {
+    color: darken($brand-color-primary, 20%);
+    text-decoration: none;
+}
+
+br {
+    display: none;
+}
+
+small {
+    color: $brand-gray-dark;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
