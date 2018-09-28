@@ -2,15 +2,24 @@
     margin-bottom: 1.6em;
     max-width: 75em;
     margin: 0 auto;
+    padding: 1em;
     &-heading{
         font-size: 1.6em;
     }
     &-list {
         &_items ul {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 0;
+            grid-template-columns: 1fr;
+            grid-gap: 1em 0;
             background-color: $brand-color-neutral;
+            
+            @media screen and (min-width: 768px) {
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 0;
+            }
+            @media screen and (min-width: 960px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
             li {
                 display: inline-block;
                 padding: 1em 0;

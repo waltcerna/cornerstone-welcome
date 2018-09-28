@@ -12,36 +12,37 @@
         padding: 1em 1.2em;
         font-size: 1.5em;
         color: $main-background-color !important;
+        text-transform: uppercase;
     }
 }
 
 .red {
     background-color: $brand-color-primary;
     &:hover, &:focus {
-        background-color: darken($brand-color-primary, 15%);
+        background-color: darken($brand-color-primary, 10%);
     }
 }
 .light-blue {
     background-color: $brand-color-usher;
     &:hover, &:focus {
-        background-color: darken($brand-color-usher, 15%);
+        background-color: darken($brand-color-usher, 10%);
     }
 }
 .navy {
     background-color: $brand-color-edu;
     &:hover, &:focus {
-        background-color: darken($brand-color-edu, 15%);
+        background-color: darken($brand-color-edu, 10%);
     }
 }
 .orange {
     background-color: $brand-color-mobile;
     &:hover, &:focus {
-        background-color: darken($brand-color-mobile, 15%);
+        background-color: darken($brand-color-mobile, 10%);
     }
 }
 .green {
     background-color: $brand-color-accent;
     &:hover, &:focus {
-        background-color: darken($brand-color-accent, 15%);
+        background-color: darken($brand-color-accent, 10%);
     }
 }

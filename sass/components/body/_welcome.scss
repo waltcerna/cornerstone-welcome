@@ -32,6 +32,24 @@
     color: $main-background-color;
     font-size: 1.2em;
     line-height: 1.625;
+    position: relative;
+    &::before, &::after {
+        content: '"';
+        display: block;
+        position: absolute;
+        font-size: 10em;
+        line-height: 1em;
+        color: rgba(255,255,255, .3);
+        
+    }
+    &::before {
+        top: -40px;
+        left: -3%;
+    }
+    &::after{
+        right: 0;
+        bottom: -.6em;
+    }
 }
 
 .welcome-message_cite {

@@ -4,6 +4,8 @@ body {
     background-color: $main-background-color;
 }
 
+
+
 #mainContainer {
     max-width: 100%;
     min-width: 20em;
@@ -17,5 +19,7 @@ body {
 }
 
 .df-footer {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 1em 8em 1em 7em;
 }
