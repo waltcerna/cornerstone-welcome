@@ -1,0 +1,47 @@
+
+.site-btn {
+    background-color: $brand-color-neutral2;
+    color: $main-background-color;
+    transition: all .3s ease-in-out;
+    border: none;
+    border-radius: 0;
+    display: block;
+    margin: 1.3em auto;
+    padding: 1em 1.2em;
+    a{
+        padding: 1em 1.2em;
+        font-size: 1.5em;
+        color: $main-background-color !important;
+    }
+}
+
+.red {
+    background-color: $brand-color-primary;
+    &:hover, &:focus {
+        background-color: darken($brand-color-primary, 15%);
+    }
+}
+.light-blue {
+    background-color: $brand-color-usher;
+    &:hover, &:focus {
+        background-color: darken($brand-color-usher, 15%);
+    }
+}
+.navy {
+    background-color: $brand-color-edu;
+    &:hover, &:focus {
+        background-color: darken($brand-color-edu, 15%);
+    }
+}
+.orange {
+    background-color: $brand-color-mobile;
+    &:hover, &:focus {
+        background-color: darken($brand-color-mobile, 15%);
+    }
+}
+.green {
+    background-color: $brand-color-accent;
+    &:hover, &:focus {
+        background-color: darken($brand-color-accent, 15%);
+    }
+}

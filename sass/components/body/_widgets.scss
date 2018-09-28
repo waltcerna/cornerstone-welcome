@@ -1,5 +1,5 @@
 .widgetDropped {
-    margin: 10px 10px;
+    margin: 0;
 }
 
 #csod-dialog {
@@ -11,7 +11,7 @@
     color: $brand-text;
     font-size: 1em;
     font-family: $brand-font;
-    padding: 0 10px 20px;
+    padding: 0;
 }
 
 .PanelIcon .mediaWidgets {
@@ -28,24 +28,26 @@
 }
 
 .cs-panel-flat .Panel_title {
-    background-color: darken($brand-color-secondary, 30%);
+    background-color: darken($brand-color-usher, 20%);
     border-radius: 0;
 }
 
 .Panel_titleLeft,
 .Panel_titleRight {
     display: none;
-    background: darken($brand-color-secondary, 30%);
+    background: darken($brand-color-usher, 20%);
     width: 0;
 }
 
 .Panel_titleMiddle {
+    font-size: 1em;
     padding: 15px;
     background: transparent;
-    background-color: darken($brand-color-secondary, 30%);
+    background-color: darken($brand-color-usher, 20%);
 }
 
 .Panel_titleMiddle h2 {
+    display: block;
     font-size: 1.2em !important;
     line-height: 1.625 !important;
     color: $main-background-color;
@@ -100,6 +102,26 @@ table .CsList_th {
 
 .tablerolloverNewUI {
     background-color: transparent
+}
+
+.list-widget {
+    height: 200px;
+    overflow-y: scroll;
+    ul{
+        list-style: none;
+        li {
+            display: flex;
+            padding: 0;
+            align-items: center;
+            justify-content: flex-start;
+            &:hover, &:focus{
+                background-color: $brand-gray-light;
+            }
+            a{  
+                padding: 10px;
+            }
+        }
+    }
 }
 
 #container5 {
@@ -257,3 +279,4 @@ a.quickLink {
     position: relative;
     z-index: 1;
 }
+

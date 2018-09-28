@@ -1,0 +1,49 @@
+.welcome-hero {
+    background: url(https://www.microstrategy.com/getmedia/d4b9af9c-74d8-4b7c-8e41-cb991cb66387/jumpstart.jpg) top center no-repeat;
+    padding: 150px 0;
+    position: relative;
+    margin-bottom: 1.5em;
+    background-size: cover;
+}
+
+.welcome-hero:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.welcome-message {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.welcome-message_heading {
+    color: $main-background-color;
+}
+
+.welcome-message_body {
+    color: $main-background-color;
+    font-size: 1.2em;
+    line-height: 1.625;
+}
+
+.welcome-message_cite {
+    color: rgba(255, 255, 255, .7);
+    font-style: italic;
+}
+
+
+.site-btn_red {
+    padding: 16px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: $brand-color-primary;
+    color: $main-background-color;
+}

@@ -5,6 +5,7 @@
 
 // Components
 @import 'sass/components/global/global';
+@import 'sass/components/global/buttons';
 @import 'sass/components/typography';
 @import 'sass/components/header/search';
 @import 'sass/components/header/predictive-search';
@@ -12,3 +13,6 @@
 @import 'sass/components/header/navigation';
 @import 'sass/components/header/breadcrumbs';
 @import 'sass/components/body/widgets';
+@import 'sass/components/body/welcome';
+@import 'sass/components/body/certs';
+@import 'sass/components/body/course-list';

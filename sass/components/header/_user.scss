@@ -1,3 +1,7 @@
+.topBarOuter {
+    max-width: 75em;
+    margin: 0 auto;
+}
 .topBarOuter * {
     box-sizing: content-box;
 }
@@ -55,14 +59,17 @@
         height: 50px;
         width: 50px;
         span {
-            display: inline-block;
-            position: relative;
-            margin: .89em;
+            display: block;
+            position: absolute;
+            margin: 0;
+            top: 17px;
+            left: 12px;
             width: 2em;
-            height: 2em;
-            background: white;
-            border-radius: 50%;
-            border: 0.4em solid gray;
+            height: 1.2em;
+            background: transparent;
+            border-radius: 0;
+            border-top: 0.3em solid $background-color;
+            border-bottom: 0.3em solid $background-color;
             box-sizing: border-box;
         }
     }

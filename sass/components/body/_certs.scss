@@ -1,0 +1,28 @@
+.certs {
+    margin-bottom: 1.6em;
+    max-width: 75em;
+    margin: 0 auto;
+    &-heading{
+        font-size: 1.6em;
+    }
+    &-list {
+        &_items ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 0;
+            background-color: $brand-color-neutral;
+            li {
+                display: inline-block;
+                padding: 1em 0;
+                &:hover, &:focus {
+                    background-color: $brand-color-neutral2;
+                }
+                a {
+                    font-size: .8em;
+                    line-height: 2;
+                    padding: 1em;
+                }
+            }
+        }
+    }
+}

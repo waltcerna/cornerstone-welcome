@@ -39,6 +39,10 @@ blockquote:before,blockquote:after,q:before,q:after {
     content: none;
 }
 
+br {
+    display: none;
+}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -47,4 +51,5 @@ table {
 tr, td, tbody, th {
     margin: 0;
     padding: 0;
+    border: none;
 }

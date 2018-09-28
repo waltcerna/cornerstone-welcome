@@ -1,0 +1,75 @@
+.upcoming {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0 2em;
+    max-width: 75em;
+    margin: 1.2em auto;
+    &-heading{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 1.6em;
+    }
+}
+
+.course-list {
+    grid-row: 2;
+    line-height: 1.625;
+    &_heading {
+        font-size: 1.2em;
+        font-weight: 600;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: .4em;
+    }
+    &_items {
+        ul {
+            list-style: none;
+            height: 320px;
+            overflow: scroll;
+            li {
+                &:hover, &:focus {
+                    background-color: $brand-color-neutral;
+                }
+                a {
+                    padding: .8em .5em;
+                    display: inline-block;
+                    line-height: 2;
+                    font-size: .8em;
+                }
+            }
+        }
+    }
+    &_id{
+        padding: .3em;
+        margin-right: 0.4em;
+        color: $brand-color-neutral2;
+    }
+    &_duration {
+        font-size: .9em;
+        font-weight: 600;
+        background-color: #a0a0a0;
+        padding: .4em;
+        margin-right: .4em;
+    }
+}
+
+.analytics {
+    background-color: $brand-color-primary;
+    color: $main-background-color;
+}
+.mobile {
+    background-color: $brand-color-mobile;
+    color: $main-background-color;
+}
+.usher {
+    background-color: $brand-color-usher;
+    color: $main-background-color;
+}
+.ft {
+    background-color: $brand-color-accent;
+    color: $main-background-color;
+}
+
+.cert {
+    background-color: $brand-color-edu;
+    color: $main-background-color;
+}

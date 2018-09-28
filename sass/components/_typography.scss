@@ -1,7 +1,3 @@
-td {
-    border: none;
-}
-
 .c-glbl-nav {
     padding: 0;
 }
@@ -103,6 +99,12 @@ h1 .brdcrmhdr {
 h2,
 .h2 {
     font-size: 42px;
+    font-weight: 400;
+}
+
+.cs-panel-flat .Panel_titleMiddle h2 {
+    font-family: $brand-font;
+    font-weight: 400;
 }
 
 h3,
@@ -172,17 +174,8 @@ a:link:active {
     text-decoration: none;
 }
 
-br {
-    display: none;
-}
+
 
 small {
     color: $brand-gray-dark;
 }
-
-.clearfix:after {
-    content: '';
-    display: table;
-    clear: both
-}
-
