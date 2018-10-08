@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-.welcome-hero:before {
+.welcome-hero::before {
     content: "";
     height: 100%;
     width: 100%;

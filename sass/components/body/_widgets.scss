@@ -181,7 +181,7 @@ table .CsList_th {
     margin-bottom: 0
 }
 
-.grid:after {
+.grid::after {
     content: '';
     display: table;
     clear: both
